@@ -1,0 +1,91 @@
+{
+  "project" : {
+    "id" : "test_kod-1624-bnf",
+    "name" : "test_kod-1624-bnf",
+    "folder" : "/jaicp"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : true,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "Europe/Moscow",
+    "shared" : false
+  },
+  "intents" : [ {
+    "id" : 181907,
+    "path" : "/пока",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "пока"
+    } ]
+  }, {
+    "id" : 181908,
+    "path" : "/привет",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    } ]
+  } ],
+  "entities" : [ {
+    "entity" : {
+      "id" : 107948,
+      "name" : "Новая_сущность",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false
+    },
+    "records" : [ ]
+  }, {
+    "entity" : {
+      "id" : 107949,
+      "name" : "Новая_сущность_1",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false
+    },
+    "records" : [ ]
+  }, {
+    "entity" : {
+      "id" : 107950,
+      "name" : "Новая_сущность_2",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false
+    },
+    "records" : [ {
+      "id" : 9329669,
+      "type" : "synonyms",
+      "rule" : [ "привет", "хай" ],
+      "value" : ""
+    } ]
+  }, {
+    "entity" : {
+      "id" : 107951,
+      "name" : "Новая_сущность_3",
+      "enabled" : true,
+      "shared" : false,
+      "type" : "annotation",
+      "priority" : 1,
+      "noSpelling" : false,
+      "noMorph" : false
+    },
+    "records" : [ {
+      "id" : 9329670,
+      "type" : "synonyms",
+      "rule" : [ "дерево", "дуб", "берёза", "лес" ],
+      "value" : ""
+    } ]
+  } ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ]
+}
