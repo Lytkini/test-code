@@ -1,18 +1,18 @@
 {
   "project" : {
-    "id" : "test_kod-1624-bnf",
-    "name" : "test_kod-1624-bnf",
+    "id" : "repa-1624-Xzu",
+    "name" : "repa-1624-Xzu",
     "folder" : "/jaicp"
   },
   "settings" : {
     "language" : "ru",
-    "spellingCorrection" : true,
+    "spellingCorrection" : false,
     "classificationAlgorithm" : "sts",
-    "timezone" : "Europe/Moscow",
+    "timezone" : "UTC",
     "shared" : false
   },
   "intents" : [ {
-    "id" : 181907,
+    "id" : 184969,
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -20,7 +20,7 @@
       "text" : "пока"
     } ]
   }, {
-    "id" : 181908,
+    "id" : 184970,
     "path" : "/привет",
     "enabled" : true,
     "shared" : false,
@@ -30,7 +30,7 @@
   } ],
   "entities" : [ {
     "entity" : {
-      "id" : 107948,
+      "id" : 108165,
       "name" : "Новая_сущность",
       "enabled" : true,
       "shared" : false,
@@ -42,7 +42,7 @@
     "records" : [ ]
   }, {
     "entity" : {
-      "id" : 107949,
+      "id" : 108166,
       "name" : "Новая_сущность_1",
       "enabled" : true,
       "shared" : false,
@@ -54,7 +54,7 @@
     "records" : [ ]
   }, {
     "entity" : {
-      "id" : 107950,
+      "id" : 108167,
       "name" : "Новая_сущность_2",
       "enabled" : true,
       "shared" : false,
@@ -64,14 +64,14 @@
       "noMorph" : false
     },
     "records" : [ {
-      "id" : 9329669,
+      "id" : 9417214,
       "type" : "synonyms",
       "rule" : [ "привет", "хай" ],
       "value" : ""
     } ]
   }, {
     "entity" : {
-      "id" : 107951,
+      "id" : 108168,
       "name" : "Новая_сущность_3",
       "enabled" : true,
       "shared" : false,
@@ -81,7 +81,7 @@
       "noMorph" : false
     },
     "records" : [ {
-      "id" : 9329670,
+      "id" : 9417215,
       "type" : "synonyms",
       "rule" : [ "дерево", "дуб", "берёза", "лес" ],
       "value" : ""
